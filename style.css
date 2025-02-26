@@ -1,0 +1,778 @@
+/* Style resets : begins */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+a,
+span,
+img {
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Style resets : ends */
+
+/* Typography and Colors : begins */
+
+.color-primary {
+    color: #71a894;
+}
+
+.color-secondary {
+    color: #303031;
+}
+
+.color-ternary {
+    color: #66645E;
+}
+
+.font-secondary {
+    font-family: "Abril Fatface", serif;
+    font-size: 400;
+}
+
+.font-ternary {
+    font-family: "novel-mono-pro", sans-serif;
+    font-weight: 800;
+    font-size: 3.2rem;
+}
+
+.font-four-novel-mono {
+    font-family: "novel-mono-pro", sans-serif;
+}
+
+.font-hero {
+    font-family: "bely-display", sans-serif;
+    color: #303031;
+}
+
+.font-p {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 1.8rem;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+.font-18 {
+    font-size: 1.8rem;
+}
+
+.font-16 {
+    font-size: 1.6em;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
+/* Typography and Colors : ends */
+
+/* Global Classes : begins */
+.text-center {
+    align-items: center;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.container-max {
+    max-width: 1358px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.paddng-all {
+    padding: 2rem;
+}
+
+
+
+/* Global Classes : ends */
+
+/* Global styles : begins */
+
+.header {
+    position: relative;
+    margin: 35px 0 10px;
+}
+
+.header .wrapper {
+    gap: 20px;
+}
+
+.logo img {
+    max-width: 280px;
+    width: 100%;
+}
+
+.navigation-list {
+    gap: 20px 40px;
+}
+
+.navigation-list .nav-link {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.column-left {
+    width: 50%;
+}
+
+.column-left h1 {
+    font-size: 6rem;
+}
+
+.column-left p {
+    font-size: 2rem;
+}
+
+.hero-banner .wrapper p {
+    padding: 20px 0 0 0;
+    line-height: 1.5;
+}
+
+.hero-banner .wrapper .button {
+    margin-top: 4rem;
+}
+
+.hero-banner .wrapper a {
+    padding: 20px 24px;
+    background-color: #71A894;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.hero-banner-image-wrapper img {
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Section three CSS starts  */
+
+.reimagining .wrapper .first-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reimagining .wrapper .first-one h2,
+p {
+    max-width: 895px;
+    padding: 10px 0;
+}
+
+.reimagining .wrapper .first-one h2 {
+
+    font-size: 4rem;
+}
+
+.reimagining .wrapper .first-one p {
+    font-size: 1.8rem;
+}
+
+.reimagining .wrapper .second-one {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 6rem;
+}
+
+.reimagining .wrapper .second-one .box {
+    max-width: 420px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.reimagining .wrapper .second-one img {
+    max-width: 10rem;
+    width: 100%;
+
+}
+
+.reimagining .wrapper .second-one .box h3 {
+    font-size: 2.4rem;
+}
+
+.reimagining .wrapper .second-one p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/* Section three CSS ends  */
+
+
+/* Section four CSS starts  */
+
+.section-four .wrapper {
+    padding-top: 10rem;
+    gap: 20px;
+}
+
+.section-four .wrapper .first-one {
+    width: 64rem;
+    padding: 70px 0;
+}
+
+.section-four .wrapper .first-one img {
+    max-width: 8rem;
+}
+
+.section-four .wrapper .second-one .box img {
+    max-width: 7.2rem;
+}
+
+.section-four .wrapper .first-one h2 {
+    font-size: 4.8rem;
+}
+
+.section-four .wrapper .first-one p {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding: 30px 0 0 0;
+    line-height: 1.4;
+}
+
+.section-four .wrapper .second-one {
+    display: flex;
+    flex-direction: column;
+
+    width: 48rem;
+    height: fit-content;
+    padding: 40px 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px rgb(113, 168, 148);
+
+}
+
+.section-four .wrapper .second-one .box {
+    display: flex;
+    gap: 20px;
+}
+
+.section-four .wrapper .second-one .box .detailes {
+    padding: 15px 0;
+}
+
+.font-ternary {
+    padding: 0 0 10px;
+}
+
+/* Section four CSS ends  */
+
+
+
+/* Section five CSS starts  */
+
+.section-five .wrapper {
+    max-width: 130.8rem;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    height: fit-content;
+}
+
+.section-five .wrapper .first-one {
+    max-width: 44rem ;
+    padding: 30px 40px;
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+.section-five .image img {
+    max-width: 7rem;
+    width: 100%;
+}
+
+.section-five .wrapper .first-one .head {
+    max-width: 48rem;
+    width: 100%;
+    height: fit-content;
+    gap: 20px;
+}
+
+.section-five .wrapper .first-one .head .content .name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #303031;
+}
+
+.section-five .wrapper .first-one .head .content .para{
+    color: #66645E;
+    font-weight: 600;
+}
+
+.section-five .wrapper .first-one .paragraph p {
+    font-family: "novel-mono-pro", sans-serif;
+    font-weight: 500;
+    color: #303031;
+}
+
+.section-five .wrapper .first-one .detailes {
+    gap: 3rem;
+}
+.section-five .wrapper .first-one .detailes .price {
+    font-family: "novel-mono-pro", sans-serif;
+    font-weight: 500;
+    color: #303031;
+    font-size: 2.4rem;
+}
+
+.section-five .wrapper .first-one .vote-link {
+    padding-top: 3rem;
+}
+.section-five .wrapper .first-one .vote-link a {
+    padding: 2rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    background-color: #303031;
+    color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.section-five .wrapper .second-one {
+    max-width: 64rem;
+}
+
+.section-five .wrapper .second-one .p-one {
+    font-size: 4.8rem;
+    font-weight: 400;
+}
+
+
+/* Section five CSS ends  */
+
+/* Section six CSS starts  */
+
+.section-six .wrapper {
+    padding-top: 5rem;  
+    gap: 4rem;
+}
+.section-six .wrapper .column-left {
+    max-width: 64rem;
+    width: 100%;
+}
+.section-six .wrapper .column-left .head {
+    font-size: 4.8rem;
+}
+
+.section-six .wrapper .column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-six .wrapper .column-right .top {
+    width: 50rem;
+    padding: 16px;
+    border: 4px solid #303031;
+    border-radius: 14px;
+    box-shadow: 0px 10px 0px rgb(50, 209, 140);
+    
+}
+
+.section-six .font-16 {
+    font-family: "novel-mono-pro", sans-serif;
+
+}
+.section-six .share {
+    font-family: "novel-mono-pro", sans-serif;
+    color:#FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+.section-six .wrapper .column-right .top .top-gap {
+    gap: 40px;
+}
+
+.section-six .button {
+    max-width: 80%;
+    width: 100%;
+}
+.section-six .wrapper .column-right .share {
+    background-color: #71A894;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.section-six .client img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.section-six .applicants {
+    background-color: aqua;
+    max-width: 34rem;
+    width: 100%;
+    margin-top: 20px;
+    padding: 3rem 4rem;
+    border: 4px solid #303031;
+    border-radius: 15px;
+    background-color: #F3F0EA;
+    margin-bottom: 20px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.paddng-t-b-10 {
+    padding: 10px 0;
+}
+.section-six .star img {
+    width: 2rem;
+}
+
+.section-six .head {
+    font-size: 2.4rem;
+}
+
+.section-six .client-name {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.section-six .rating {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.section-six .testonomial {
+    margin-top: 40px;
+    flex-direction: column;
+    width: 24rem;
+    width: 100%;
+    padding: 20px;
+    border: 4px solid #71A894;
+    border-radius: 15px;
+}
+
+.section-six .client-cards {
+    gap: 20px;
+}
+.section-six .testonomial img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+.section-six .testonomial .star{
+    width: 20px;
+    height: 20px;
+    
+}
+.section-six .testonomial p {
+    font-family: "novel-mono-pro", sans-serif;
+}
+
+.section-six .testonomial .head {
+    font-weight: 600;
+    text-align: center;
+}
+
+.view {
+    padding: 12px 24px;
+    background-color: #303031;
+    border-radius: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Section six CSS ends  */
+
+/* Section seven CSS start  */
+
+.section-seven .wrapper {
+    padding-top: 3rem;
+    flex-direction: column;
+}
+.section-seven .wrapper .top-one {
+    max-width: 89rem;
+    width: 100%;
+    text-align: center;
+}
+.section-seven .head {
+    /* padding: 5px 20px; */
+    font-size: 4.8rem;
+    font-weight: 400;
+}
+
+.section-seven .para{
+    font-weight: 400;
+}
+.section-seven .bottom-one {
+    padding-top: 40px;
+}
+.section-seven .bottom-one .task p{
+    font-family: "novel-mono-pro", sans-serif;
+
+}
+.section-seven .task {
+    padding: 20px;
+    max-width: 46.7rem;
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.aut {
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 4px 8px;
+    background-color: #71A894;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Section seven CSS ends  */
+
+/* Section eight CSS starts  */
+
+.section-eight {
+    padding-top: 6rem;
+}
+.section-eight p{
+    padding: 20px 24px;
+    color: #FFFFFF;
+    background-color: #303031;
+    border-radius: 8px;
+}
+.section-eight img{
+    max-width: 132.8rem;
+    width: 100%;
+    margin-top: 4rem;
+    height: 70px;
+}
+/* Section eight CSS ends  */
+
+/* Section nine CSS starts  */
+.section-nine {
+    padding-top: 4rem;
+}
+
+/* .section-nine .column-left {
+
+} */
+
+.section-nine .head {
+    font-size: 4.8rem;
+}
+
+.section-nine .column-left .request {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: 20px 24px;
+    background-color: #71A894;
+    color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+}
+
+/* Section nine CSS ends  */
+
+
+
+/* Section ten footer CSS starts  */
+
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.footer .logo {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.footer .link{
+    font-family: "proxima-nova", sans-serif;
+    font-size: 2rem;
+    color: #303031;
+}
+
+.footer .highlight {
+    font-weight: 700;
+    color: #71a894 ;
+}
+
+
+
+/* Section ten footer CSS ends  */
+
+
+/* Global styles : ends */
+
+
+
+/* Small devices (SM: 576px - 767px) */
+
+/* Large screens (Extra large devices: desktops, ≥1400px) */
+
+
+/* Base Styles - Desktop First Approach */
+
+/* Default styles for large screens */
+body {
+    font-size: 16px;
+}
+
+/* Container max width */
+.container-max {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Responsive Media Queries based on Bootstrap 5.3 breakpoints */
+
+/* Large devices (lg) - Desktops and laptops (≥992px) */
+@media (max-width: 991.98px) {
+    .hero-banner .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-banner .column-left {
+        order: 2;
+    }
+
+    .hero-banner .column-right {
+        order: 1;
+    }
+
+    .navigation-list {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+}
+
+/* Medium devices (md) - Tablets (≥768px and <992px) */
+@media (max-width: 767.98px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .reimagining .second-one {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .section-four .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Small devices (sm) - Phones (≥576px and <768px) */
+@media (max-width: 575.98px) {
+    .hero-banner h1 {
+        font-size: 24px;
+    }
+
+    .hero-banner p {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .task-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Extra Small devices (xs) - Very small phones (<576px) */
+@media (max-width: 400px) {
+    .container-max {
+        padding: 0 10px;
+    }
+
+    .header .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+}
